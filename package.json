@@ -2,8 +2,9 @@
     "name": "cool-cowboy-theme",
     "displayName": "Cool Cowboy Theme",
     "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "lulu-rijpkema",
+    "main": "./extension.js",
     "icon": "images/icon.png",
     "repository": {
       "type": "git",
@@ -35,6 +36,15 @@
         }
       }
     },
+    "commands": [
+    {
+        "command": "cool-cowboy-theme.activate",
+        "title": "Activate Cool Cowboy Theme"
+    }
+],
+"activationEvents": [
+    "onStartupFinished"
+],
     "extensionPack": [
       "chadalen.vscode-jetbrains-icon-theme"
     ],
