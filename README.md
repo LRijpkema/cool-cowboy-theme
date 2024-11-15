@@ -1,16 +1,27 @@
-# cowboy-theme README
+# Cool Cowboy Theme 🤠
 
-## Working with Markdown
+A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Features
 
-## For more information
+- Balanced dark theme with carefully selected colors
+- Easy on the eyes for long coding sessions
+- Muted cool and warm tones inspired by Western landscapes
+- Great contrast for improved readability
+- Support for popular programming languages
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installation
 
-**Enjoy!**
+1. Open Visual Studio Code
+2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "Cool Cowboy Theme"
+4. Click Install
+5. Press Ctrl+K Ctrl+T (or Cmd+K Cmd+T on macOS) to open the theme selector
+6. Select "Cool Cowboy Theme"
+
+
+
+## License
+
+[MIT License](LICENSE.md)
