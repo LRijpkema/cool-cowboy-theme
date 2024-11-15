@@ -2,10 +2,10 @@
     "name": "cool-cowboy-theme",
     "displayName": "Cool Cowboy Theme",
     "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "lulu-rijpkema",
     "main": "./extension.js",
-    "icon": "images/icon.png",
+    "icon": "images/icon.jpg",
     "repository": {
       "type": "git",
       "url": "https://github.com/LRijpkema/cool-cowboy-theme.git"
