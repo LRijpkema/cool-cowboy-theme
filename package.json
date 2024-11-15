@@ -1,0 +1,22 @@
+{
+  "name": "cool-cowboy-theme",
+  "displayName": "Cool Cowboy Theme",
+"description": "A refined dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
+  "version": "0.0.1",
+  "publisher": "lulu-rijpkema",
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Cool Cowboy Theme",
+              "uiTheme": "vs-dark",
+              "path": "./themes/Cool-Cowboy-Theme-color-theme.json"
+          }
+      ]
+  }
+}
