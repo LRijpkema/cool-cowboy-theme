@@ -17,18 +17,22 @@ A dark theme blending muted cool and warm colors, creating a balanced and comfor
 
 ### HTML
 ![HTML Preview](./images/html-preview.png)
+
 *Clean syntax highlighting for HTML elements and attributes*
 
 ### CSS
 ![CSS Preview](./images/css-preview.png)
+
 *Beautiful styling for your stylesheets including CSS variables and media queries*
 
 ### JavaScript
 ![JavaScript Preview](./images/js-preview.png)
+
 *Modern JavaScript with class syntax, async/await, and ES6+ features*
 
 ### Python
 ![Python Preview](./images/python-preview.png)
+
 *Clear distinction between functions, variables, and built-in Python keywords*
 
 ## Color Philosophy
