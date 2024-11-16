@@ -1,23 +1,41 @@
 # Cool Cowboy Theme 🤠
 
-A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.
+A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics. Intentionally designed without red or green colors to reduce visual distractions and provide a more focused coding experience.
+
+---
+
+## Preview
 
 ![Theme Preview](./images/theme-preview.png)
-![Theme Preview](/images/theme-preview.png)
-![Theme Preview](images/theme-preview.PNG)
-
-![Theme Preview](https://raw.githubusercontent.com/LRijpkema/cool-cowboy-theme/main/images/theme-preview.png)
-
 
 ## Features
 
 - Balanced dark theme with carefully selected colors
 - Easy on the eyes for long coding sessions
 - Muted cool and warm tones inspired by Western landscapes
+- Purposefully avoids red and green colors to minimize distractions and ease eye strain for developers with color vision deficiencies
 - Great contrast for improved readability
-- Support for popular programming languages
+- Support for popular programming languages including HTML, CSS, JavaScript, Python, and more
 
+### HTML
+![HTML Preview](./images/html-preview.png)
+*Clean syntax highlighting for HTML elements and attributes*
 
+### CSS
+![CSS Preview](./images/css-preview.png)
+*Beautiful styling for your stylesheets including CSS variables and media queries*
+
+### JavaScript
+![JavaScript Preview](./images/js-preview.png)
+*Modern JavaScript with class syntax, async/await, and ES6+ features*
+
+### Python
+![Python Preview](./images/python-preview.png)
+*Clear distinction between functions, variables, and built-in Python keywords*
+
+## Color Philosophy
+
+This theme intentionally avoids red and green colors, which can be distracting during long coding sessions. Instead, it uses a carefully curated palette of blues and warm neutrals to create a comfortable, distraction-free coding environment while maintaining excellent readability.
 
 ## Installation
 
