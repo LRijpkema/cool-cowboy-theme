@@ -2,6 +2,12 @@
 
 A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.
 
+![Theme Preview](./images/theme-preview.png)
+![Theme Preview](/images/theme-preview.png)
+![Theme Preview](images/theme-preview.PNG)
+
+![Theme Preview](https://raw.githubusercontent.com/LRijpkema/cool-cowboy-theme/main/images/theme-preview.png)
+
 
 ## Features
 
@@ -11,6 +17,8 @@ A dark theme blending muted cool and warm colors, creating a balanced and comfor
 - Great contrast for improved readability
 - Support for popular programming languages
 
+
+
 ## Installation
 
 1. Open Visual Studio Code
@@ -19,8 +27,6 @@ A dark theme blending muted cool and warm colors, creating a balanced and comfor
 4. Click Install
 5. Press Ctrl+K Ctrl+T (or Cmd+K Cmd+T on macOS) to open the theme selector
 6. Select "Cool Cowboy Theme"
-
-
 
 ## License
 
