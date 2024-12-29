@@ -1,62 +1,65 @@
 {
-    "name": "cool-cowboy-theme",
-    "displayName": "Cool Cowboy Theme",
-    "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
-    "version": "0.1.1",
-    "publisher": "lulu-rijpkema",
-    "main": "./extension.js",
-    "icon": "images/icon.jpg",
-    "repository": {
+  "name": "cool-cowboy-theme",
+  "displayName": "Cool Cowboy Theme",
+  "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
+  "version": "0.1.1",
+  "publisher": "lulu-rijpkema",
+  "main": "./extension.js",
+  "icon": "images/icon.jpg",
+  "repository": {
       "type": "git",
       "url": "https://github.com/LRijpkema/cool-cowboy-theme.git"
-    },
-    "license": "MIT",
-    "engines": {
+  },
+  "license": "MIT",
+  "engines": {
       "vscode": "^1.0.0"
-    },
-    "categories": [
+  },
+  "categories": [
       "Themes"
-    ],
-    "contributes": {
+  ],
+  "contributes": {
       "themes": [
-        {
-          "label": "Cool Cowboy Theme",
-          "uiTheme": "vs-dark",
-          "path": "./themes/Cool-Cowboy-Theme-color-theme.json"
-        }
+          {
+              "label": "Cool Cowboy Theme",
+              "uiTheme": "vs-dark",
+              "path": "./themes/Cool-Cowboy-Theme-color-theme.json"
+          }
       ],
       "configuration": {
-        "title": "Cool Cowboy Theme",
-        "properties": {
-          "workbench.iconTheme": {
-            "type": "string",
-            "default": "vscode-jetbrains-icon-theme-2023-dark",
-            "description": "JetBrains 2023 Dark icons for Cool Cowboy Theme"
+          "title": "Cool Cowboy Theme",
+          "properties": {
+              "workbench.iconTheme": {
+                  "type": "string",
+                  "default": "vscode-jetbrains-icon-theme-2023-dark",
+                  "description": "JetBrains 2023 Dark icons for Cool Cowboy Theme"
+              }
           }
-        }
       }
-    },
-    "commands": [
-    {
-        "command": "cool-cowboy-theme.activate",
-        "title": "Activate Cool Cowboy Theme"
-    }
-],
-"activationEvents": [
-    "onStartupFinished"
-],
-    "extensionPack": [
+  },
+  "commands": [
+      {
+          "command": "cool-cowboy-theme.activate",
+          "title": "Activate Cool Cowboy Theme"
+      }
+  ],
+  "activationEvents": [
+      "onStartupFinished"
+  ],
+  "extensionPack": [
       "chadalen.vscode-jetbrains-icon-theme"
-    ],
-    "extensionDependencies": [
+  ],
+  "extensionDependencies": [
       "chadalen.vscode-jetbrains-icon-theme"
-    ],
-    "recommendations": [
+  ],
+  "recommendations": [
       "chadalen.vscode-jetbrains-icon-theme"
-    ],
-    "capabilities": {
+  ],
+  "capabilities": {
       "untrustedWorkspaces": {
-        "supported": true
+          "supported": true
       }
-    }
+  },
+  "scripts": {
+      "package": "vsce package"
   }
+}
