@@ -2,7 +2,7 @@
   "name": "cool-cowboy-theme",
   "displayName": "Cool Cowboy Theme",
   "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "publisher": "lulu-rijpkema",
   "main": "./extension.js",
   "icon": "images/icon.jpg",
@@ -28,6 +28,11 @@
         "label": "Cool Cowboy Theme (High Contrast)",
         "uiTheme": "hc-black",
         "path": "./themes/Cool-Cowboy-Theme-hc-color-theme.json"
+      },
+      {
+        "label": "Cool Cowboy Theme (Colorblind)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cool-Cowboy-Theme-colorblind-color-theme.json"
       }
     ],
     "configuration": {
