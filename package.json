@@ -2,69 +2,72 @@
   "name": "cool-cowboy-theme",
   "displayName": "Cool Cowboy Theme",
   "description": "A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "lulu-rijpkema",
   "main": "./extension.js",
   "icon": "images/icon.jpg",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/LRijpkema/cool-cowboy-theme.git"
+    "type": "git",
+    "url": "https://github.com/LRijpkema/cool-cowboy-theme.git"
   },
   "license": "MIT",
   "engines": {
-      "vscode": "^1.0.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
-      "Themes"
+    "Themes"
   ],
   "contributes": {
-     "themes": [
-        {
-            "label": "Cool Cowboy Theme",
-            "uiTheme": "vs-dark",
-            "path": "./themes/Cool-Cowboy-Theme-color-theme.json"
-        },
-        {
-            "label": "Cool Cowboy Theme (High Contrast)",
-            "uiTheme": "hc-black",
-            "path": "./themes/Cool-Cowboy-Theme-hc-color-theme.json"
-        }
-    ],
-      "configuration": {
-          "title": "Cool Cowboy Theme",
-          "properties": {
-              "workbench.iconTheme": {
-                  "type": "string",
-                  "default": "vscode-jetbrains-icon-theme-2023-dark",
-                  "description": "JetBrains 2023 Dark icons for Cool Cowboy Theme"
-              }
-          }
+    "themes": [
+      {
+        "label": "Cool Cowboy Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cool-Cowboy-Theme-color-theme.json"
+      },
+      {
+        "label": "Cool Cowboy Theme (High Contrast)",
+        "uiTheme": "hc-black",
+        "path": "./themes/Cool-Cowboy-Theme-hc-color-theme.json"
       }
+    ],
+    "configuration": {
+      "title": "Cool Cowboy Theme",
+      "properties": {
+        "workbench.iconTheme": {
+          "type": "string",
+          "default": "vscode-jetbrains-icon-theme-2023-dark",
+          "description": "JetBrains 2023 Dark icons for Cool Cowboy Theme"
+        }
+      }
+    }
   },
   "commands": [
-      {
-          "command": "cool-cowboy-theme.activate",
-          "title": "Activate Cool Cowboy Theme"
-      }
+    {
+      "command": "cool-cowboy-theme.activate",
+      "title": "Activate Cool Cowboy Theme"
+    }
   ],
   "activationEvents": [
-      "onStartupFinished"
+    "onStartupFinished"
   ],
   "extensionPack": [
-      "chadalen.vscode-jetbrains-icon-theme"
+    "chadalen.vscode-jetbrains-icon-theme"
   ],
   "extensionDependencies": [
-      "chadalen.vscode-jetbrains-icon-theme"
+    "chadalen.vscode-jetbrains-icon-theme"
   ],
   "recommendations": [
-      "chadalen.vscode-jetbrains-icon-theme"
+    "chadalen.vscode-jetbrains-icon-theme"
   ],
   "capabilities": {
-      "untrustedWorkspaces": {
-          "supported": true
-      }
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1"
   },
   "scripts": {
-      "package": "vsce package"
-  }
+    "package": "npx vsce package"
+}
 }
