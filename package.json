@@ -38,11 +38,6 @@
     "configuration": {
       "title": "Cool Cowboy Theme",
       "properties": {
-        "workbench.iconTheme": {
-          "type": "string",
-          "default": "vscode-jetbrains-icon-theme-2023-dark",
-          "description": "JetBrains 2023 Dark icons for Cool Cowboy Theme"
-        }
       }
     }
   },
@@ -54,15 +49,6 @@
   ],
   "activationEvents": [
     "onStartupFinished"
-  ],
-  "extensionPack": [
-    "chadalen.vscode-jetbrains-icon-theme"
-  ],
-  "extensionDependencies": [
-    "chadalen.vscode-jetbrains-icon-theme"
-  ],
-  "recommendations": [
-    "chadalen.vscode-jetbrains-icon-theme"
   ],
   "capabilities": {
     "untrustedWorkspaces": {
