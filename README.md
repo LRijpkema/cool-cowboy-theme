@@ -1,9 +1,6 @@
 # Cool Cowboy Theme 🤠
 
 A dark theme blending muted cool and warm colors, creating a balanced and comfortable coding environment inspired by Western aesthetics. Intentionally designed without red or green colors to reduce visual distractions and provide a more focused coding experience.
-
-## Preview
-
 ![Theme Preview](./images/theme-preview.png)
 
 ## Features
