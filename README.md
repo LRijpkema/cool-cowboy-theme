@@ -16,24 +16,28 @@ A dark theme blending muted cool and warm colors, creating a balanced and comfor
 - Support for popular programming languages including HTML, CSS, JavaScript, Python, and more
 
 ### HTML
+
 ![HTML Preview](./images/html-preview.png)
 
-*Clean syntax highlighting for HTML elements and attributes*
+_Clean syntax highlighting for HTML elements and attributes_
 
 ### CSS
+
 ![CSS Preview](./images/css-preview.png)
 
-*Beautiful styling for your stylesheets including CSS variables and media queries*
+_Beautiful styling for your stylesheets including CSS variables and media queries_
 
 ### JavaScript
+
 ![JavaScript Preview](./images/js-preview.png)
 
-*Modern JavaScript with class syntax, async/await, and ES6+ features*
+_Modern JavaScript with class syntax, async/await, and ES6+ features_
 
 ### Python
+
 ![Python Preview](./images/python-preview.png)
 
-*Clear distinction between functions, variables, and built-in Python keywords*
+_Clear distinction between functions, variables, and built-in Python keywords_
 
 ## Color Philosophy
 
